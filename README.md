@@ -15,6 +15,6 @@ Quem já utiliza uma versão com atualização automática pode acessar **Config
 
 ## Sobre este repositório
 
-Este canal contém apenas os pacotes de distribuição. O [repositório de desenvolvimento](https://github.com/kauannk1/gcam-portaria) reúne o código, a documentação do TCC e os testes; o acesso ao código depende das permissões desse repositório.
+Este canal contém apenas os pacotes de distribuição. A apresentação do produto, o contexto do TCC e a documentação pública estão em [GCAM Portaria — projeto e TCC](https://github.com/kauannk1/gcam-portaria-projeto). O código-fonte é mantido em um repositório privado, separado deste canal.
 
 As integrações com faciais e leitores ainda precisam de homologação em equipamento e firmware reais antes do uso em produção. Os pacotes não possuem certificado comercial de assinatura de código.
