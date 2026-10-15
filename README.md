@@ -1,20 +1,20 @@
-# GCAM Portaria — instaladores e atualizações
+# GCAM Portaria — compatibilidade com versões anteriores
 
-Canal de distribuição do GCAM Portaria, projeto de Trabalho de Conclusão de Curso em Análise e Desenvolvimento de Sistemas (ADS) da FATEC Ribeirão Preto.
+O projeto oficial, a documentação e os downloads estão em:
+**[GCAM Portaria](https://github.com/kauannk1/gcam-portaria-projeto)**
 
-O aplicativo reúne cadastros de condôminos, visitantes e veículos, registro de movimentações, correspondências e integração com equipamentos de controle de acesso.
+## Por que este repositório continua existindo?
 
-## Baixar
+As instalações até a versão 1.2.6 procuram atualizações neste endereço. Ele é mantido como espelho para que esses computadores encontrem a versão de transição e as atualizações seguintes.
 
-Abra a [versão mais recente](https://github.com/kauannk1/gcam-portaria-updates/releases/latest) e escolha o pacote:
+Os pacotes correspondentes são idênticos aos do projeto oficial, com o mesmo SHA-256. Após instalar a versão 1.2.7, cliente e servidor passam a consultar o endereço oficial. Não é necessário alterar o IP do servidor, recriar usuários ou reinstalar o banco por causa dessa mudança.
 
-- **Windows 10/11 x64:** instalador unificado, com as opções servidor e portaria, servidor dedicado ou somente estação.
-- **macOS Apple Silicon:** aplicativo da estação de testes, conectado ao servidor Windows.
+## Baixar ou conhecer o programa
 
-Quem já utiliza uma versão com atualização automática pode acessar **Configurações > Atualizações** no próprio aplicativo. A atualização preserva os cadastros; mantenha um backup verificado do servidor.
+- [Apresentação e documentação](https://github.com/kauannk1/gcam-portaria-projeto)
+- [Instaladores oficiais](https://github.com/kauannk1/gcam-portaria-projeto/releases/latest)
+- [Atualização de instalações existentes](https://github.com/kauannk1/gcam-portaria-projeto/blob/main/docs/atualizacoes.md)
 
-## Sobre este repositório
+Quem já utiliza uma versão antiga pode continuar usando **Configurações > Atualizações** para receber a transição. Este canal não deve ser apagado enquanto houver instalações que dependam dele.
 
-Este canal contém apenas os pacotes de distribuição. A apresentação do produto, o contexto do TCC e a documentação pública estão em [GCAM Portaria — projeto e TCC](https://github.com/kauannk1/gcam-portaria-projeto). O código-fonte é mantido em um repositório privado, separado deste canal.
-
-As integrações com faciais e leitores ainda precisam de homologação em equipamento e firmware reais antes do uso em produção. Os pacotes não possuem certificado comercial de assinatura de código.
+O código-fonte do GCAM Portaria permanece privado. Os arquivos automáticos Source code deste repositório contêm apenas sua documentação, não o aplicativo.
